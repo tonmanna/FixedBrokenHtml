@@ -1,0 +1,21 @@
+env:
+  commonjs: true
+  es6: true
+  node: true
+extends:
+  - standard
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+  test: true
+  describe: true
+  expect: true
+parserOptions:
+  ecmaVersion: 2018
+rules:
+  semi: 0
+  quotes: 0
+plugins: ["html"]
+settings:
+  html/html-extensions: [".html"]
+  html/indent: "tab"
