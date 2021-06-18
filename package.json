@@ -10,7 +10,7 @@
   "dependencies": {
     "nodemon": "^1.19.1",
     "sanitize-html": "^1.20.1",
-    "striptags": "^3.1.1"
+    "striptags": "^3.2.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.15",
